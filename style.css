@@ -1,0 +1,213 @@
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.cal-sans-regular {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-light {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.chakra-petch-regular {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chakra-petch-medium {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chakra-petch-semibold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.chakra-petch-bold {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.chakra-petch-light-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.chakra-petch-regular-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.chakra-petch-medium-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.chakra-petch-semibold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.chakra-petch-bold-italic {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+--
+
+body
+{background-color: rgba(0, 0, 0, 0);
+color: rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+    color: rgb(226, 51, 51);
+    font-size: 4rem;
+}
+
+img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow: rgb(34, 34, 133) 4px 4px;
+}
+
+p{
+    width: 50%;
+    text-align: justify;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    color:rgb(0, 0, 0);
+    padding: 25px ;
+}
+h2{
+    width: 50%;
+    text-align: left;
+    font-family: "Cal Sans", sans-serif;
+    color: rgb(226, 51, 51);
+    font-size: 3rem;
+    margin: auto;
+    text-shadow: rgb(221, 221, 221) 4px 4px;
+}
+
+li{
+    width: 50%;
+    text-align: left;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: flex;
+    margin: auto;
+    color:rgb(0, 0, 0);
+}
+
+.carac{
+  width: 50%;
+    text-align: center;
+    font-family: "Chakra Petch", sans-serif;
+    color: rgb(226, 51, 51);
+    font-size: 3rem;
+    margin: auto;
+    text-shadow: rgb(221, 221, 221) 4px 4px;
+}
+
+.autoria{
+  width: 100%;
+    text-align: left;
+    font-family: "Cal Sans", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 2rem;
+    margin: auto;
+    text-shadow: rgb(221, 221, 221) 4px 4px;
+    padding-top: 100px ;
+}
+
+.p-autoria{
+  width: 100%;
+    text-align: left;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.3rem;
+    display: flex;
+    margin: auto;
+    color:rgb(0, 0, 0);
+    padding: 0px;
+}
+
+a:link{
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav{
+  display: flex;
+}
+
+.cabecalho{
+  display: inline;
+}
+
+.cabecalho_lista{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 20x;
+  font-size: 1.5rem;
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
